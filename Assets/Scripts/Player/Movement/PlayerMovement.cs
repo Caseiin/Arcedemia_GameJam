@@ -33,4 +33,9 @@ public class PlayerMovement : MonoBehaviour
         if (_input != null) _input.DisableMap();
     }
 
+    void SetMovementStrategy(IMovementStrategy movementStrategy)
+    {
+        _movementStrategy = movementStrategy;
+    }
+
 }
