@@ -5,10 +5,10 @@ public class CheckPointMark : MonoBehaviour
 {
     public static event Action onCheckPointEnter;
 
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnter2D(Collider2D collision)
     {
-        Debug.Log(other.tag);
-        if (other.CompareTag("Player"))
+        Debug.Log(collision.tag);
+        if (collision.CompareTag("Player"))
         {
             onCheckPointEnter?.Invoke();
            Debug.Log("CheckPoint marked"); 
