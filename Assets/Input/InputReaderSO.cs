@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,6 +7,7 @@ public class InputReaderSO : ScriptableObject, ArcademiaZA.IPlayer1Actions
 {
     public ArcademiaZA inputs;
     public Vector2 Move{get; private set;}
+    public static event Action<float> OnChargedSlide;
 
     public void EnableMap()
     {
@@ -64,7 +66,12 @@ public class InputReaderSO : ScriptableObject, ArcademiaZA.IPlayer1Actions
 
     public void OnMove(InputAction.CallbackContext context)
     {
-        Debug.Log("Move triggered: " + context.phase);
+        if (context.canceled)
+        {
+            float holdDuration = (float)context.duration;
+            Debug.Log("Hold Duration: " + holdDuration);
+            OnChargedSlide?.Invoke(holdDuration);
+        }
         Move = context.ReadValue<Vector2>();
     }
 

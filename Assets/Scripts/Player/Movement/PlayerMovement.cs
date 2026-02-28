@@ -1,23 +1,35 @@
 using UnityEngine;
-
+[RequireComponent(typeof(Rigidbody2D))]
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] InputReaderSO input;
+    [SerializeField] InputReaderSO _input;
+    IMovementStrategy _movementStrategy;
+    Rigidbody2D _rb;
 
+    void Awake()
+    {
+        _rb = GetComponent<Rigidbody2D>();
+        _movementStrategy = new SlideMovement(_rb);
+    }
 
     void Update()
     {
-        Debug.Log(input.Move);
+        _movementStrategy.UpdateDirection(_input.Move);
+    }
+
+    void FixedUpdate()
+    {
+        _movementStrategy.Move();
     }
 
     void OnEnable()
     {
-        if (input != null) input.EnableMap();
+        if (_input != null) _input.EnableMap();
     }
 
     void OnDisable()
     {
-        if (input != null) input.DisableMap();
-
+        _movementStrategy.CleanUp();
+        if (_input != null) _input.DisableMap();
     }
 }
