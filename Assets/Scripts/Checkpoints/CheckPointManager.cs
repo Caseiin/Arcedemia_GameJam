@@ -12,15 +12,6 @@ public class CheckPointManager : MonoBehaviour
         _originator = FindFirstObjectByType<CheckPointOriginator>();
     }
 
-    void OnEnable()
-    {
-        CheckPointMark.onCheckPointEnter += StoreCheckPoint;
-    }
-
-    void OnDisable()
-    {
-        CheckPointMark.onCheckPointEnter -= StoreCheckPoint;
-    }
 
     public void StoreCheckPoint()
     {

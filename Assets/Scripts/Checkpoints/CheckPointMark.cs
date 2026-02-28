@@ -1,16 +1,17 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CheckPointMark : MonoBehaviour
 {
-    public static event Action onCheckPointEnter;
 
+    public UnityEvent onCheckPointMark;
     void OnTriggerEnter2D(Collider2D collision)
     {
         Debug.Log(collision.tag);
         if (collision.CompareTag("Player"))
         {
-            onCheckPointEnter?.Invoke();
+            onCheckPointMark?.Invoke();
            Debug.Log("CheckPoint marked"); 
         }
     }
