@@ -4,14 +4,27 @@ using UnityEngine.InputSystem;
 [CreateAssetMenu(fileName = "InputReaderSO", menuName = "Scriptable Objects/InputReaderSO")]
 public class InputReaderSO : ScriptableObject, ArcademiaZA.IPlayer1Actions
 {
-    ArcademiaZA inputs;
-    public Vector2 Move{get; private set;} 
+    public ArcademiaZA inputs;
+    public Vector2 Move{get; private set;}
 
-    public void Enable()
+    public void EnableMap()
     {
-        inputs = new ArcademiaZA();
-        inputs.Enable();
+        if (inputs == null)
+        {
+            inputs = new ArcademiaZA();
+        }
         inputs.Player1.SetCallbacks(this);
+        inputs.Enable();
+        Debug.Log("Input Enabled");
+    }
+
+    public void DisableMap()
+    {
+        if (inputs != null)
+        {
+            inputs.Player1.SetCallbacks(null);
+            inputs.Disable();
+        }
     }
 
 
@@ -51,6 +64,7 @@ public class InputReaderSO : ScriptableObject, ArcademiaZA.IPlayer1Actions
 
     public void OnMove(InputAction.CallbackContext context)
     {
+        Debug.Log("Move triggered: " + context.phase);
         Move = context.ReadValue<Vector2>();
     }
 
