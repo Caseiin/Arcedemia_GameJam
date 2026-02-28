@@ -1,0 +1,689 @@
+fileFormatVersion: 2
+guid: bea81647113a0894c8f311295e6f7fb2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8355872089969665214
+    second: uolwhite_0
+  - first:
+      213: -3879732185519754020
+    second: uolwhite_1
+  - first:
+      213: -7294546428666611691
+    second: uolwhite_2
+  - first:
+      213: -7984327480643826981
+    second: uolwhite_3
+  - first:
+      213: -4477373637060421051
+    second: uolwhite_4
+  - first:
+      213: -4902660429564739766
+    second: uolwhite_5
+  - first:
+      213: -2672986833689094161
+    second: uolwhite_6
+  - first:
+      213: -3636456571724007849
+    second: uolwhite_7
+  - first:
+      213: -4212416299928969400
+    second: uolwhite_8
+  - first:
+      213: 5641786968940832586
+    second: uolwhite_9
+  - first:
+      213: -7140575112873337755
+    second: uolwhite_10
+  - first:
+      213: -4678650557116152003
+    second: uolwhite_11
+  - first:
+      213: 4557096347130274840
+    second: uolwhite_12
+  - first:
+      213: -1424380511831485820
+    second: uolwhite_13
+  - first:
+      213: 4611101405981123656
+    second: uolwhite_14
+  - first:
+      213: 5980452173676719539
+    second: uolwhite_15
+  - first:
+      213: -5743242830470998966
+    second: uolwhite_16
+  - first:
+      213: -5008384761889075505
+    second: uolwhite_17
+  - first:
+      213: -4146932591629106625
+    second: uolwhite_18
+  - first:
+      213: 8001187295668802744
+    second: uolwhite_19
+  - first:
+      213: 4065910728073605351
+    second: uolwhite_20
+  - first:
+      213: -4981973088442478296
+    second: uolwhite_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uolwhite_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 166
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24bd1c00b9af90c80800000000000000
+      internalID: -8355872089969665214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 123
+        width: 282
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4f17a022c682ac0800000000000000
+      internalID: -3879732185519754020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 166
+        width: 44
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5187bb9dba094ca90800000000000000
+      internalID: -7294546428666611691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdac5d98578f13190800000000000000
+      internalID: -7984327480643826981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 65
+        width: 33
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a9054366c2dd1c0800000000000000
+      internalID: -4477373637060421051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_5
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 66
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ffd61905046fbb0800000000000000
+      internalID: -4902660429564739766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 65
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe75aa803a4a7ead0800000000000000
+      internalID: -2672986833689094161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_7
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 66
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7567149c306b88dc0800000000000000
+      internalID: -3636456571724007849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_8
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 66
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84f1bac81bd7a85c0800000000000000
+      internalID: -4212416299928969400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 65
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4765265b57ab4e40800000000000000
+      internalID: 5641786968940832586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_10
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 66
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c903964c497ec90800000000000000
+      internalID: -7140575112873337755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_11
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 66
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3788ea5b18121fb0800000000000000
+      internalID: -4678650557116152003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_12
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 66
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8142ee1bbfe0e3f30800000000000000
+      internalID: 4557096347130274840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_13
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 65
+        width: 31
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4829b4f98759b3ce0800000000000000
+      internalID: -1424380511831485820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_14
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 66
+        width: 25
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8442fce4c4cedff30800000000000000
+      internalID: 4611101405981123656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bda630f095def250800000000000000
+      internalID: 5980452173676719539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4497fe1317eb40b0800000000000000
+      internalID: -5743242830470998966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_17
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 0
+        width: 60
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fce4f193894ae7ab0800000000000000
+      internalID: -5008384761889075505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_18
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0
+        width: 48
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f32057087c22376c0800000000000000
+      internalID: -4146932591629106625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_19
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b415bb047de90f60800000000000000
+      internalID: 8001187295668802744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_20
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 0
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e0f64bd3440d6830800000000000000
+      internalID: 4065910728073605351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uolwhite_21
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 0
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82194d62fd97cdab0800000000000000
+      internalID: -4981973088442478296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      uolwhite_0: -8355872089969665214
+      uolwhite_1: -3879732185519754020
+      uolwhite_10: -7140575112873337755
+      uolwhite_11: -4678650557116152003
+      uolwhite_12: 4557096347130274840
+      uolwhite_13: -1424380511831485820
+      uolwhite_14: 4611101405981123656
+      uolwhite_15: 5980452173676719539
+      uolwhite_16: -5743242830470998966
+      uolwhite_17: -5008384761889075505
+      uolwhite_18: -4146932591629106625
+      uolwhite_19: 8001187295668802744
+      uolwhite_2: -7294546428666611691
+      uolwhite_20: 4065910728073605351
+      uolwhite_21: -4981973088442478296
+      uolwhite_3: -7984327480643826981
+      uolwhite_4: -4477373637060421051
+      uolwhite_5: -4902660429564739766
+      uolwhite_6: -2672986833689094161
+      uolwhite_7: -3636456571724007849
+      uolwhite_8: -4212416299928969400
+      uolwhite_9: 5641786968940832586
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
