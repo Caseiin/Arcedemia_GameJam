@@ -163,10 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 858f7ec695124124892b45265b130c0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SoundManager
-  soundDataLibrary:
-  - SoundName: 
-    Type: 0
-    SoundTrack: {fileID: 0}
+  _soundDataLibrary: []
 --- !u!1 &123171722
 GameObject:
   m_ObjectHideFlags: 0
