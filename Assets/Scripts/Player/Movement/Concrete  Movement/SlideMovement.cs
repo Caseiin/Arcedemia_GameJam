@@ -5,6 +5,7 @@ public class SlideMovement: IMovementStrategy
 {
     Rigidbody2D _rb;
     Vector2 _movedirection = Vector2.zero;
+    float _slidedamping = 0.9f;
 
     public SlideMovement(Rigidbody2D rb)
     {
@@ -14,6 +15,7 @@ public class SlideMovement: IMovementStrategy
 
     public void Move()
     {
+        _rb.linearVelocity = Vector2.Lerp(_rb.linearVelocity, Vector2.zero, _slidedamping * Time.fixedDeltaTime);
     }
 
     public void UpdateDirection(Vector2 direction)

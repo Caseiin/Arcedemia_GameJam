@@ -17,7 +17,6 @@ public class InputReaderSO : ScriptableObject, ArcademiaZA.IPlayer1Actions
         }
         inputs.Player1.SetCallbacks(this);
         inputs.Enable();
-        Debug.Log("Input Enabled");
     }
 
     public void DisableMap()
@@ -69,7 +68,7 @@ public class InputReaderSO : ScriptableObject, ArcademiaZA.IPlayer1Actions
         if (context.canceled)
         {
             float holdDuration = (float)context.duration;
-            Debug.Log("Hold Duration: " + holdDuration);
+            // Debug.Log("Hold Duration: " + holdDuration);
             OnChargedSlide?.Invoke(holdDuration);
         }
         Move = context.ReadValue<Vector2>();
