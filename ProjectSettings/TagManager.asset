@@ -50,6 +50,12 @@ TagManager:
   - name: Collision
     uniqueID: 344828481
     locked: 0
+  - name: Life
+    uniqueID: 2139985845
+    locked: 0
+  - name: Death
+    uniqueID: 1810603197
+    locked: 0
   - name: Player
     uniqueID: 3373828029
     locked: 0

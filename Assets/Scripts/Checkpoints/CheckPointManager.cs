@@ -10,6 +10,7 @@ public class CheckPointManager : MonoBehaviour
     {
         _history = new Stack<CheckPointMemento>();
         _originator = FindFirstObjectByType<CheckPointOriginator>();
+        StoreCheckPoint();
     }
 
 
