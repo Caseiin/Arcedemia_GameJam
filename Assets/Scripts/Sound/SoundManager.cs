@@ -15,8 +15,8 @@ public class SoundManager : MonoBehaviour
     [SerializeField] private AudioSource _loopedSfxSource;
 
     private Dictionary<SoundType, List<SoundData>> _soundDictionary = new();
+    PlayerController _player;
 
-    #region Unity Lifecycle
 
     private void Awake()
     {
@@ -29,11 +29,27 @@ public class SoundManager : MonoBehaviour
 
         Instance = this;
 
+        _player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+
         InitializeDictionary();
         ConfigureAudioSources();
     }
 
-    #endregion
+    private void Start()
+    {
+        PlayMusic(SoundType.Music);
+    }
+
+
+    private void Update()
+    {
+        if (_player.SlideMovementInstance.IsSliding)
+        {
+            StartLoopedSFX(SoundType.Effects);
+        }
+        else StopLoopedSFX();
+    }
+
 
     #region Initialization
 
@@ -133,7 +149,7 @@ public class SoundManager : MonoBehaviour
         _loopedSfxSource.Play();
     }
 
-    public void StopLoopedSFX()
+    public  void StopLoopedSFX()
     {
         if (_loopedSfxSource != null)
             _loopedSfxSource.Stop();

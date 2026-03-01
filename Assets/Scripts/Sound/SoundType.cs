@@ -7,5 +7,6 @@ public enum SoundType
     Effects,
     Voiceover,
     Music,
-    Ambient
+    Ambient,
+    Death,
 }
