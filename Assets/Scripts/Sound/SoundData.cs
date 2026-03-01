@@ -5,5 +5,5 @@ public class SoundData
 {
     public string SoundName;
     public SoundType Type;
-    public AudioClip SoundTrack;
+    public AudioClip Clip;
 }
