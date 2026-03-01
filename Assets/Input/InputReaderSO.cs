@@ -7,7 +7,12 @@ public class InputReaderSO : ScriptableObject, ArcademiaZA.IPlayer1Actions
 {
     public ArcademiaZA inputs;
     public Vector2 Move{get; private set;}
+
+    // Events
+    public static event Action OnSliderPressed;
+
     public static event Action<float> OnChargedSlide;
+    public static event Action OnSliderReleased;
 
     public void EnableMap()
     {
@@ -65,13 +70,19 @@ public class InputReaderSO : ScriptableObject, ArcademiaZA.IPlayer1Actions
 
     public void OnMove(InputAction.CallbackContext context)
     {
+        Move = context.ReadValue<Vector2>();
+
+        if (context.started)
+        {
+        }
+
         if (context.canceled)
         {
             float holdDuration = (float)context.duration;
             // Debug.Log("Hold Duration: " + holdDuration);
             OnChargedSlide?.Invoke(holdDuration);
+
         }
-        Move = context.ReadValue<Vector2>();
     }
 
     public void OnStart(InputAction.CallbackContext context)

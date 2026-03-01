@@ -20,7 +20,7 @@ public class SlideMovement: IMovementStrategy
 
     public void UpdateDirection(Vector2 direction)
     {
-        _movedirection = direction;
+        _movedirection = direction.normalized;
     }
 
     void ApplySlideEffect(float holdDuration)
