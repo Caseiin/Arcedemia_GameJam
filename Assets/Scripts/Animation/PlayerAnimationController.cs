@@ -17,15 +17,18 @@ public class PlayerAnimationController : MonoBehaviour
     void OnEnable()
     {
         InputReaderSO.OnMovementKeyPressed += PlaySlide;
+        SlideMovement.OnSlideStopped += PlayIdle;
     }
 
     void OnDisable()
     {
         InputReaderSO.OnMovementKeyPressed -= PlaySlide;
+        SlideMovement.OnSlideStopped -= PlayIdle;
     }
 
     void PlayIdle()
     {
+        _animator.SetTrigger(_idleHash);
     }
 
     void PlaySlide()

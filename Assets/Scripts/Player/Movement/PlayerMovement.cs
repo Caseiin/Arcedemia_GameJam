@@ -5,10 +5,12 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] InputReaderSO _input;
     IMovementStrategy _movementStrategy;
     Rigidbody2D _rb;
+    SpriteRenderer _render;
 
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
+        _render = GetComponent<SpriteRenderer>();
         _movementStrategy = new SlideMovement(_rb);
     }
 
