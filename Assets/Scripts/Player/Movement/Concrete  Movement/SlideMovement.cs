@@ -5,15 +5,17 @@ using UnityEngine;
 public class SlideMovement: IMovementStrategy
 {
     Rigidbody2D _rb;
+    SpriteRenderer _render;
     Vector2 _movedirection = Vector2.zero;
     float _slidedamping = 1.5f;
     float _stopThreshold = 0.05f;
 
     public static event Action OnSlideStopped;
 
-    public SlideMovement(Rigidbody2D rb)
+    public SlideMovement(Rigidbody2D rb,SpriteRenderer renderer)
     {
         _rb = rb;
+        _render = renderer;
         StartUp();
     }
 

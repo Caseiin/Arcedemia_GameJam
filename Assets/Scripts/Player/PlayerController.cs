@@ -1,6 +1,6 @@
 using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
-public class PlayerMovement : MonoBehaviour
+public class PlayerController: MonoBehaviour
 {
     [SerializeField] InputReaderSO _input;
     IMovementStrategy _movementStrategy;
@@ -11,7 +11,7 @@ public class PlayerMovement : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody2D>();
         _render = GetComponent<SpriteRenderer>();
-        _movementStrategy = new SlideMovement(_rb);
+        _movementStrategy = new SlideMovement(_rb,_render);
     }
 
     void Update()

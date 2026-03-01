@@ -5,12 +5,15 @@ using UnityEngine;
 public class NormalMovement : IMovementStrategy
 {
     Rigidbody2D _rb;
+    SpriteRenderer _render;
+
     Vector2 _movedirection;
     float _movespeed = 5f;
 
-    public NormalMovement(Rigidbody2D rb)
+    public NormalMovement(Rigidbody2D rb, SpriteRenderer renderer)
     {
         _rb = rb;
+        _render = renderer;
     }
 
     public void CleanUp()
