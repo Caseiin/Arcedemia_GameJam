@@ -9,10 +9,9 @@ public class InputReaderSO : ScriptableObject, ArcademiaZA.IPlayer1Actions
     public Vector2 Move{get; private set;}
 
     // Events
-    public static event Action OnSliderPressed;
-
+    public static event Action OnMovementKeyPressed;
     public static event Action<float> OnChargedSlide;
-    public static event Action OnSliderReleased;
+    public static event Action OnMovementKeyReleased;
 
     public void EnableMap()
     {
@@ -74,6 +73,7 @@ public class InputReaderSO : ScriptableObject, ArcademiaZA.IPlayer1Actions
 
         if (context.started)
         {
+            OnMovementKeyPressed?.Invoke();
         }
 
         if (context.canceled)
@@ -81,7 +81,7 @@ public class InputReaderSO : ScriptableObject, ArcademiaZA.IPlayer1Actions
             float holdDuration = (float)context.duration;
             // Debug.Log("Hold Duration: " + holdDuration);
             OnChargedSlide?.Invoke(holdDuration);
-
+            OnMovementKeyReleased?.Invoke();
         }
     }
 
