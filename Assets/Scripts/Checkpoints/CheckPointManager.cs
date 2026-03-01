@@ -24,7 +24,13 @@ public class CheckPointManager : MonoBehaviour
 
     public void Respawn()
     {
-        var Respawnpoint = _history.Pop();
+        CheckPointMemento Respawnpoint;
+        if (_history.Count >1)
+        {
+            Respawnpoint = _history.Pop();
+        }
+        else Respawnpoint = _history.Peek();
+        
         Debug.Log($"Checkpoint restored: location{Respawnpoint.CheckPoint}");
         _originator.RestoreCheckPoint(Respawnpoint);
     }
