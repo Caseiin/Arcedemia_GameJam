@@ -8,10 +8,10 @@ public class SlideMovement: IMovementStrategy
     SpriteRenderer _render;
     Vector2 _movedirection = Vector2.zero;
     float _slidedamping = 1.5f;
-    float _stopThreshold = 0.01f;
-
-    public event Action OnSlideStopped;
+    float _stopThreshold = 0.06f;
     bool _hasStopped = false;
+    public bool IsSliding{get; set;} = false;
+
 
     public SlideMovement(Rigidbody2D rb,SpriteRenderer renderer)
     {
@@ -27,7 +27,7 @@ public class SlideMovement: IMovementStrategy
         if (!_hasStopped && _rb.linearVelocity.magnitude <= _stopThreshold)
         {
             _hasStopped = true;
-            OnSlideStopped?.Invoke();
+            IsSliding = false;
             Debug.Log("Player has stopped sliding");
         }
 
@@ -40,6 +40,9 @@ public class SlideMovement: IMovementStrategy
 
     void ApplySlideEffect(float holdDuration)
     {
+        if (IsSliding) return;
+
+        IsSliding = true;
         _hasStopped = false;
         _render.flipX = _movedirection.x < 0;
 
