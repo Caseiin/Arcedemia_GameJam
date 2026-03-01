@@ -16,8 +16,15 @@ MonoBehaviour:
   - {fileID: 579120983, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
   - {fileID: -835402852, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
   - {fileID: -773452662, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
-  m_MinSpeed: 5
-  m_MaxSpeed: 5
+  - {fileID: 579120983, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: -835402852, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: -773452662, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 579120983, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 579120983, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 579120983, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 579120983, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  m_MinSpeed: 10
+  m_MaxSpeed: 10
   m_AnimationStartTime: 0
   m_AnimationStartFrame: 0
   m_TileColliderType: 0

@@ -13,10 +13,18 @@ MonoBehaviour:
   m_Name: Chest
   m_EditorClassIdentifier: Unity.2D.Tilemap.Extras::UnityEngine.Tilemaps.AnimatedTile
   m_AnimatedSprites:
-  - {fileID: 1259770315, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
-  - {fileID: -93801343, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
-  - {fileID: -1312915768, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
-  - {fileID: 146039431, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: -1853895352, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 399407336, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 1515313990, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: -1192212495, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 1019184066, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 21614070, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 21614070, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: -1192212495, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 1515313990, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 399407336, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: 399407336, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
+  - {fileID: -1853895352, guid: 5aa506b43dd30584c905d6918e73b3b2, type: 3}
   m_MinSpeed: 5
   m_MaxSpeed: 5
   m_AnimationStartTime: 0
