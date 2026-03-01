@@ -7,11 +7,15 @@ public class PlayerController: MonoBehaviour
     Rigidbody2D _rb;
     SpriteRenderer _render;
 
+    public SlideMovement SlideMovementInstance {get; private set;}
+
+
     void Awake()
     {
         _rb = GetComponent<Rigidbody2D>();
         _render = GetComponent<SpriteRenderer>();
         _movementStrategy = new SlideMovement(_rb,_render);
+        SlideMovementInstance = _movementStrategy as SlideMovement;
     }
 
     void Update()
